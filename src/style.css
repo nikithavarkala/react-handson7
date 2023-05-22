@@ -1,0 +1,137 @@
+nav a{
+    text-decoration: none;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* color:bisque; */
+    color: white;
+    margin-left:20px;
+    margin-right: 20px;
+}
+nav{
+    background-color: rgb(135, 151, 230);
+    padding:7px;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-image: linear-gradient(lightblue,pink,wheat);
+    min-height: 100vh;
+}
+p{
+    margin: 50px;
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+}
+h2{
+    margin:30px;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    text-align: center;
+    background-color: white;
+    width:94vw;
+    height:450px;
+    margin-left: 40px;
+    margin-right:40px;
+    border-collapse: collapse;
+}
+table{
+    margin-top:50px;
+}
+td,th{
+    border-bottom: 1px solid gray;
+    padding:10px 0px;
+}
+thead{
+    border-bottom: 1px solid gray;
+}
+.newstd{
+    font-size: large;
+    border:1px solid black;
+    float: right;
+    margin-top: -60px;
+    margin-right: 40px;
+    border-radius: 50px;
+    padding:12px;
+    width:220px;
+    background-color: azure;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    /* font-weight: 500; */
+}
+.newstd:hover{
+    box-shadow: 3px 3px 3px gray;
+}
+input{
+    padding:18px;
+    width:340px;
+    margin:50px 30px;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: large;
+}
+form{
+    margin:60px;
+}
+input:focus {
+    outline: none;
+    border:2px solid blue;
+}
+button{
+    padding:12px;
+    width:220px;
+    font-size: larger;
+    border:1px solid black;
+    border-radius:50px;
+    float: right;
+    cursor: pointer;
+}
+.cancel{
+    background-color: lightslategray;
+    margin-right:30px;
+}
+.placeholder{
+    position: relative;
+    top:2px;
+    right:390px;
+    font-size: larger;
+    padding:0px 5px;
+    color:#666;
+    transition: 0.3s;
+    pointer-events: none;
+}
+input:focus + .placeholder{
+    top:-30px;
+    color:blue;
+    font-size:smaller;
+    background-color:white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding:18px;
+    width:340px;
+    margin:30px 30px;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: large;
+}
+form{
+    margin:60px;
+}
+span{
+    position: absolute;
+    left: 55%;
+}
+/* .sp{
+    position: absolute;
+    left:20%;
+} */
